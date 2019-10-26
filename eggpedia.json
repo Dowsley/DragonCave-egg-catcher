@@ -1,0 +1,905 @@
+{
+    "dragons":{
+        "Aeon Wyvern":{
+            "description":"It's almost like time is distorted around this egg.",
+            "biomes":[
+                "Alpine",
+                "Forest"
+            ]
+        },
+        "Aeria Gloris":{
+            "description":"This crystalline egg almost looks like you could reach into its depths.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Aether Wyvern":{
+            "description":"Wind gusts around this egg.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Albino":{
+            "description":"You can see the baby dragon curled up inside this translucent egg.",
+            "biomes":[
+                "Alpine",
+                "Forest"
+            ]
+        },
+        "Almerald":{
+            "description":"This glossy green egg is rather warm.",
+            "biomes":[
+                "Alpine",
+                "Forest"
+            ]
+        },
+        "Anagallis":{
+            "description":"This delicately patterned egg is sitting in the sunshine.",
+            "biomes":[
+                "Desert",
+                "Forest",
+                "Jungle"
+            ]
+        },
+        "Antarean":{
+            "description":"This egg is surrounded by mysterious, reflective dust.",
+            "biomes":[
+                "Desert"
+            ]
+        },
+        "Aqualis":{
+            "description":"This drab egg rests far from the water's edge.",
+            "biomes":[
+                "Coast"
+            ]
+        },
+        "Aria":{
+            "description":"This bright egg has a warm shell.",
+            "biomes":[
+                "Jungle"
+            ]
+        },
+        "Avatar of Change":{
+            "description":"This iridescent egg radiates mysterious energy.",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Avatar of Creation":{
+            "description":"This shimmering egg radiates primordial energy.",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Avatar of Destruction":{
+            "description":"This smoldering egg radiates volatile energy.",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Ash":{
+            "description":"This ashen egg is smooth to the touch.",
+            "biomes":[
+                "Forest",
+                "Volcano"
+            ]
+        },
+        "Azure Glacewing":{
+            "description":"This large egg has a lustrous sheen and appears to be covered in scales.",
+            "biomes":[
+                "Forest"
+            ]
+        },
+        "Balloon":{
+            "description":"This light egg is floating in the air.",
+            "biomes":[
+                "Alpine",
+                "Coast",
+                "Forest",
+                "Jungle"
+            ]
+        },
+        "Black":{
+            "description":"This egg has a faint green glow around it.",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Black Capped Teimarr":{
+            "description":"This egg has a black cap.",
+            "biomes":[
+                "Coast"
+            ]
+        },
+        "Black Tea":{
+            "description":"This egg has a faintly exotic scent.",
+            "biomes":[
+                "Desert"
+            ]
+        },
+        "Black Truffle":{
+            "description":"This egg has a pleasant, musky smell.",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Blacktip":{
+            "description":"This egg is off-white in color and smells a bit like salt.",
+            "biomes":[
+                "Coast"
+            ]
+        },
+        "Bleeding Moon":{
+            "description":"This egg shines brilliantly in moonlight, and is covered in red spots.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Blue-Banded":{
+            "description":"This egg is covered in thick blue stripes.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Blusang Lindwyrm":{
+            "description":"This egg smells faintly like brine.",
+            "biomes":[
+                "Coast"
+            ]
+        },
+        "Bolt":{
+            "description":"This egg has a striking pattern.",
+            "biomes":[
+                "Alpine",
+                "Forest"
+            ]
+        },
+        "Boreal":{
+            "description":"This egg is covered in pale blue spots.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Bright-Breasted Wyvern":{
+            "description":"This egg is covered in speckles.",
+            "biomes":[
+                "Jungle"
+            ]
+        },
+        "Brimstone":{
+            "description":"This egg smells rather rancid.",
+            "biomes":[
+                "Desert",
+                "Volcano"
+            ]
+        },
+        "Brute":{
+            "description":"This egg is unusually large and heavy.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Candelabra":{
+            "description":"This mottled red egg almost glows from within.",
+            "biomes":[
+                "Coast",
+                "Jungle"
+            ]
+        },
+        "Canopy":{
+            "description":"This egg is hidden by some leaves.",
+            "biomes":[
+                "Jungle"
+            ]
+        },
+        "Carina":{
+            "description":"This egg shimmers with dazzling constellations.",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Carmine Wyvern":{
+            "description":"This pink and red egg wobbles occasionally.",
+            "biomes":[
+                "Jungle"
+            ]
+        },
+        "Cassare":{
+            "description":"This egg makes you feel a bit uneasy.",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Celestial":{
+            "description":"This translucent egg shines like starlight.",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Coastal Waverunner":{
+            "description":"This egg reminds you of the sea.",
+            "biomes":[
+                "Coast"
+            ]
+        },
+        "Copper":{
+            "description":"This egg gleams with a reddish shine.",
+            "biomes":[
+                "Desert",
+                "Volcano"
+            ]
+        },
+        "Dark Green":{
+            "description":"This egg is sitting in a patch of grass and small flowers even though there's no sun in the cave.",
+            "biomes":[
+                "Forest",
+                "Jungle"
+            ]
+        },
+        "Dark Lumina":{
+            "description":"This egg shines coldly in the moonlight.",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Daydream":{
+            "description":"This egg is sitting on a cloud.",
+            "biomes":[
+                "Coast",
+                "Forest",
+                "Jungle"
+            ]
+        },
+        "Deep Sea":{
+            "description":"This egg appears to be covered in scales.[1]",
+            "biomes":[
+                "Coast"
+            ]
+        },
+        "Diamondwing":{
+            "description":"This egg shines like a diamond.",
+            "biomes":[
+                "Alpine",
+                "Volcano"
+            ]
+        },
+        "Dorsal":{
+            "description":"This egg has multiple bands of color on it.",
+            "biomes":[
+                "Jungle"
+            ]
+        },
+        "Electric":{
+            "description":"Electric sparks dance across the surface of this egg.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Ember":{
+            "description":"This egg is really hot.",
+            "biomes":[
+                "Volcano"
+            ]
+        },
+        "Falconiform Wyvern":{
+            "description":"Cold flames dance across the surface of this egg.",
+            "biomes":[
+                "Volcano"
+            ]
+        },
+        "Fell":{
+            "description":"This mottled egg looks positively ancient.",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Fever Wyvern":{
+            "description":"This egg is patterned with an orange flare.",
+            "biomes":[
+                "Jungle"
+            ]
+        },
+        "Fire Gem":{
+            "description":"This rough egg has shimmering veins of crystal running across its surface.[2]",
+            "biomes":[
+                "Volcano"
+            ]
+        },
+        "Flamingo Wyvern":{
+            "description":"It's bright. And pink.[3]",
+            "biomes":[
+                "Coast",
+                "Jungle"
+            ]
+        },
+        "Freckled":{
+            "description":"This egg is yellow with orange speckling.",
+            "biomes":[
+                "Desert",
+                "Jungle"
+            ]
+        },
+        "Frilled":{
+            "description":"This egg has strange markings on it.[4]",
+            "biomes":[
+                "Jungle"
+            ]
+        },
+        "Frostbite":{
+            "description":"Frost is creeping over this cold egg.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Galvanic Wyvern":{
+            "description":"Powerful energy emanates from this egg.",
+            "biomes":[
+                "Volcano"
+            ]
+        },
+        "Gemshard":{
+            "description":"This egg is encrusted with colorful gemstones.",
+            "biomes":[
+                "Jungle"
+            ]
+        },
+        "Geode":{
+            "description":"This egg is heavy and rough, as if it were made out of rock.[5]",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Gold":{
+            "description":"This egg is very reflective, almost metallic-looking.",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Gold-Horned Tangar":{
+            "description":"This egg has bright orange and green markings.",
+            "biomes":[
+                "Jungle"
+            ]
+        },
+        "Golden Wyvern":{
+            "description":"This egg shimmers like gold.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Green":{
+            "description":"This egg is sitting in a pile of small pebbles.",
+            "biomes":[
+                "Forest",
+                "Volcano"
+            ]
+        },
+        "Guardian":{
+            "description":"This egg is sitting in front of the others.",
+            "biomes":[
+                "Volcano"
+            ]
+        },
+        "Guardian of Nature":{
+            "description":"This egg glows mysteriously.",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Harvest":{
+            "description":"This heavy egg feels slightly warm.",
+            "biomes":[
+                "Alpine",
+                "[6]",
+                "Forest"
+            ]
+        },
+        "Hellfire Wyvern":{
+            "description":"This egg radiates the heat of a fell flame.",
+            "biomes":[
+                "Volcano"
+            ]
+        },
+        "Hellhorse":{
+            "description":"This hot egg shakes violently when you touch it.",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Horse":{
+            "description":"This egg has strange markings on it.[4]",
+            "biomes":[
+                "Jungle"
+            ]
+        },
+        "Ice":{
+            "description":"This egg has icicles forming on it.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Imperial Fleshcrowne":{
+            "description":"This egg is hidden in the trees.",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Khusa":{
+            "description":"This egg is smooth and shiny.",
+            "biomes":[
+                "Alpine",
+                "Desert"
+            ]
+        },
+        "Kingcrowne":{
+            "description":"This shiny egg gives off an almost magical aura.",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Lacula":{
+            "description":"This green and silver egg lurks in the shadows, tempting you to steal it.",
+            "biomes":[
+                "Coast"
+            ]
+        },
+        "Leodon":{
+            "description":"This red and gold egg sits before the others, almost daring you to grab it.",
+            "biomes":[
+                "Volcano"
+            ]
+        },
+        "Lihnseyre":{
+            "description":"This glowing egg seems to tug at your very core.",
+            "biomes":[
+                "Jungle"
+            ]
+        },
+        "Lumina":{
+            "description":"This egg shines brightly in the sunlight.",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Luminox Wyvern":{
+            "description":"The markings on this egg glow brightly in the shadows.",
+            "biomes":[
+                "Forest"
+            ]
+        },
+        "Lunar Herald":{
+            "description":"This metallic egg shows faint iridescence in moonlight.",
+            "biomes":[
+                "Alpine",
+                "Desert",
+                "Volcano"
+            ]
+        },
+        "Magi":{
+            "description":"This egg has an orange aura radiating from it.",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Magma":{
+            "description":"This egg is almost too hot to touch.",
+            "biomes":[
+                "Volcano"
+            ]
+        },
+        "Melismor":{
+            "description":"This heavy egg has an earthy scent, like freshly-tilled soil.",
+            "biomes":[
+                "Forest"
+            ]
+        },
+        "Mint":{
+            "description":"This egg is hidden behind the others, as if it is shy.",
+            "biomes":[
+                "Alpine",
+                "Coast",
+                "Forest",
+                "Jungle",
+                "Volcano"
+            ]
+        },
+        "Monarch":{
+            "description":"This egg is buried in leaf litter.",
+            "biomes":[
+                "Desert",
+                "Forest",
+                "Jungle"
+            ]
+        },
+        "Moonstone":{
+            "description":"This egg resembles a glowing stone.[7]",
+            "biomes":[
+                "Desert"
+            ]
+        },
+        "Nebula":{
+            "description":"This egg glows with a brilliant radiance.",
+            "biomes":[
+                "Alpine",
+                "Desert"
+            ]
+        },
+        "Neglected":{
+            "description":"This egg is very sickly looking, like it's diseased.",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Neotropical":{
+            "description":"This egg has strange yellow stripes.",
+            "biomes":[
+                "Jungle"
+            ]
+        },
+        "Nhiostrife Wyvern":{
+            "description":"This dull purple egg has two bright stripes on it.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Nocturne":{
+            "description":"This egg appears to be made of limestone.",
+            "biomes":[
+                "Alpine",
+                "Forest"
+            ]
+        },
+        "Olive":{
+            "description":"This egg smells musty, like rotting leaves.",
+            "biomes":[
+                "Forest"
+            ]
+        },
+        "Pillow":{
+            "description":"This egg has a velvety texture.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Pink":{
+            "description":"It's bright. And pink.[3]",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Plated Colossus":{
+            "description":"This massive egg is covered with thick plates.",
+            "biomes":[
+                "Forest",
+                "Jungle"
+            ]
+        },
+        "Purple":{
+            "description":"Wow, purple isn't a color of egg you expected to see.",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Pyrovar":{
+            "description":"This glassy egg is too hot to hold with your bare hands.",
+            "biomes":[
+                "Volcano"
+            ]
+        },
+        "Razorcrest Wyvern":{
+            "description":"This blue and bronze egg piques your curiosity.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Red":{
+            "description":"This egg is rather warm.",
+            "biomes":[
+                "Desert",
+                "Volcano"
+            ]
+        },
+        "Red-finned Tidal":{
+            "description":"This egg is wet from the waves and has bright red stripes.",
+            "biomes":[
+                "Coast"
+            ]
+        },
+        "Ridgewing":{
+            "description":"A cool mountain breeze blows around this egg.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Rift Wyrm":{
+            "description":"This egg radiates an otherworldly chill.",
+            "biomes":[
+                "All Habitats",
+                "[8]"
+            ]
+        },
+        "Risensong":{
+            "description":"This bright egg shines in the morning sunlight.",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Royal Blue":{
+            "description":"This egg shines in the moonlight.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Royal Crimson":{
+            "description":"This large egg is a dark crimson color.",
+            "biomes":[
+                "Volcano"
+            ]
+        },
+        "Sapphire":{
+            "description":"This egg looks like a beautiful blue stone.",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Scimitar-wing Wyvern":{
+            "description":"This egg seems quite harmless.",
+            "biomes":[
+                "Desert",
+                "Volcano"
+            ]
+        },
+        "Script":{
+            "description":"This egg is covered in mysterious patterns.",
+            "biomes":[
+                "Volcano"
+            ]
+        },
+        "Setsong Dragon":{
+            "description":"This dark egg shines in the evening sunlight.",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Shallow Water":{
+            "description":"This egg appears to be covered in scales.[1]",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Shimmer-scale":{
+            "description":"This egg is very reflective, almost metallic looking.[9]",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Silver":{
+            "description":"This egg gives off a beautiful glow.[10]",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Sinii Krai":{
+            "description":"This striped egg has a warm glow.",
+            "biomes":[
+                "Coast"
+            ]
+        },
+        "Siyat":{
+            "description":"This egg seems to be glowing in spots.",
+            "biomes":[
+                "Alpine",
+                "Coast",
+                "Forest"
+            ]
+        },
+        "Skysilk":{
+            "description":"This light egg has very vibrant colors.",
+            "biomes":[
+                "Desert",
+                "Jungle"
+            ]
+        },
+        "Skywing":{
+            "description":"This egg has strange markings on it.[4]",
+            "biomes":[
+                "Coast"
+            ]
+        },
+        "Soulpeace":{
+            "description":"This egg gives off a beautiful glow.[10]",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Speckle-Throated":{
+            "description":"This egg has a rough—yet shiny—shell.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Spinel Wyvern":{
+            "description":"This glassy egg has a single stripe on it.",
+            "biomes":[
+                "Desert",
+                "Volcano"
+            ]
+        },
+        "Spirit Ward":{
+            "description":"This egg glows from within.",
+            "biomes":[
+                "Alpine",
+                "Forest"
+            ]
+        },
+        "Spitfire":{
+            "description":"This egg has brightly colored markings on it.[11]",
+            "biomes":[
+                "Desert"
+            ]
+        },
+        "Spotted Greenwing":{
+            "description":"This egg is covered in bright spots.",
+            "biomes":[
+                "Forest"
+            ]
+        },
+        "Stone":{
+            "description":"This egg is heavy and rough, as if it were made out of rock.[5]",
+            "biomes":[
+                "Alpine",
+                "Desert",
+                "Volcano"
+            ]
+        },
+        "Storm":{
+            "description":"This egg is surrounded by fog.",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Storm-Rider":{
+            "description":"You can feel the static electricity that surrounds this egg.",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Striped River":{
+            "description":"A small puddle of condensation has collected under this egg.",
+            "biomes":[
+                "Forest"
+            ]
+        },
+        "Sunsong Amphiptere":{
+            "description":"This egg changes colors in the sunlight.",
+            "biomes":[
+                "Jungle"
+            ]
+        },
+        "Sunstone":{
+            "description":"This egg resembles a glowing stone.[7]",
+            "biomes":[
+                "Desert"
+            ]
+        },
+        "Swallowtail":{
+            "description":"This egg has a very thin shell.",
+            "biomes":[
+                "Forest"
+            ]
+        },
+        "Tercorn":{
+            "description":"Water glistens on this egg's shimmering shell.",
+            "biomes":[
+                "Coast"
+            ]
+        },
+        "Terrae":{
+            "description":"This egg is a lush green hue.",
+            "biomes":[
+                "Forest"
+            ]
+        },
+        "Tetra":{
+            "description":"This egg has faint markings.",
+            "biomes":[
+                "Coast",
+                "Jungle"
+            ]
+        },
+        "Thunder":{
+            "description":"Whenever you go near this egg your hair stands on end.",
+            "biomes":[
+                "Desert"
+            ]
+        },
+        "Tinsel":{
+            "description":"This egg is very reflective, almost metallic looking.[9]",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Tri-Horn Wyvern":{
+            "description":"This brown egg is covered in intricate designs.",
+            "biomes":[
+                "Alpine"
+            ]
+        },
+        "Tsunami Wyvern":{
+            "description":"This egg is rocking back and forth in a puddle, creating small waves.",
+            "biomes":[
+                "Coast"
+            ]
+        },
+        "Turpentine":{
+            "description":"This egg smells strongly of turpentine.",
+            "biomes":[
+                "Desert"
+            ]
+        },
+        "Two-Finned Bluna":{
+            "description":"This egg has colored speckles on it.",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Ultraviolet":{
+            "description":"This egg is very warm, as if it has been sitting out in strong sunlight.",
+            "biomes":[
+                "No Habitat"
+            ]
+        },
+        "Undine":{
+            "description":"There is a thin layer of moisture coating this egg.",
+            "biomes":[
+                "Alpine",
+                "Forest"
+            ]
+        },
+        "Vampire":{
+            "description":"This egg is stone cold and smells rotten.",
+            "biomes":[
+                "No Habitat",
+                "[14]"
+            ]
+        },
+        "Water":{
+            "description":"This egg is sitting in a shallow puddle.",
+            "biomes":[
+                "Coast"
+            ]
+        },
+        "Water Walker":{
+            "description":"This egg seems to be floating on a puddle.",
+            "biomes":[
+                "Coast",
+                "Forest",
+                "Jungle"
+            ]
+        },
+        "Waterhorse":{
+            "description":"This egg is slimy and blue.",
+            "biomes":[
+                "Coast"
+            ]
+        },
+        "Whiptail":{
+            "description":"This egg shakes from time to time, as if it is eager to hatch.",
+            "biomes":[
+                "Forest"
+            ]
+        },
+        "White":{
+            "description":"This egg has a very clean look; it's completely devoid of dirt and scratches.",
+            "biomes":[
+                "All Habitats"
+            ]
+        },
+        "Yellow-Crowned":{
+            "description":"The air shimmers around this egg, as if from heat.",
+            "biomes":[
+                "Desert"
+            ]
+        }
+    }
+}
