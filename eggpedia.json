@@ -226,8 +226,17 @@
             "description":"This egg gleams with a reddish shine.",
             "biomes":[
                 "Desert",
-                "Volcano"
-            ]
+                "Volcano",
+                "Alpine",
+                "Forest",
+                "Coast",
+                "Jungle"
+            ],
+            "variants":{
+                "Liver of Sulfur": ["Desert", "Volcano"],
+                "Rainbow": ["Alpine", "Forest"],
+                "Verdigris": ["Coast", "Jungle"]
+            }
         },
         "Dark Green":{
             "description":"This egg is sitting in a patch of grass and small flowers even though there's no sun in the cave.",
@@ -251,7 +260,7 @@
             ]
         },
         "Deep Sea":{
-            "description":"This egg appears to be covered in scales.[1]",
+            "description":"This egg appears to be covered in scales.",
             "biomes":[
                 "Coast"
             ]
@@ -300,13 +309,13 @@
             ]
         },
         "Fire Gem":{
-            "description":"This rough egg has shimmering veins of crystal running across its surface.[2]",
+            "description":"This rough egg has shimmering veins of crystal running across its surface.",
             "biomes":[
                 "Volcano"
             ]
         },
         "Flamingo Wyvern":{
-            "description":"It's bright. And pink.[3]",
+            "description":"It's bright. And pink.",
             "biomes":[
                 "Coast",
                 "Jungle"
@@ -320,7 +329,7 @@
             ]
         },
         "Frilled":{
-            "description":"This egg has strange markings on it.[4]",
+            "description":"This egg has strange markings on it.",
             "biomes":[
                 "Jungle"
             ]
@@ -344,7 +353,7 @@
             ]
         },
         "Geode":{
-            "description":"This egg is heavy and rough, as if it were made out of rock.[5]",
+            "description":"This egg is heavy and rough, as if it were made out of rock.",
             "biomes":[
                 "No Habitat"
             ]
@@ -390,7 +399,6 @@
             "description":"This heavy egg feels slightly warm.",
             "biomes":[
                 "Alpine",
-                "[6]",
                 "Forest"
             ]
         },
@@ -407,7 +415,7 @@
             ]
         },
         "Horse":{
-            "description":"This egg has strange markings on it.[4]",
+            "description":"This egg has strange markings on it.",
             "biomes":[
                 "Jungle"
             ]
@@ -512,7 +520,7 @@
             ]
         },
         "Moonstone":{
-            "description":"This egg resembles a glowing stone.[7]",
+            "description":"This egg resembles a glowing stone.",
             "biomes":[
                 "Desert"
             ]
@@ -562,7 +570,7 @@
             ]
         },
         "Pink":{
-            "description":"It's bright. And pink.[3]",
+            "description":"It's bright. And pink.",
             "biomes":[
                 "All Habitats"
             ]
@@ -614,8 +622,7 @@
         "Rift Wyrm":{
             "description":"This egg radiates an otherworldly chill.",
             "biomes":[
-                "All Habitats",
-                "[8]"
+                "All Habitats"
             ]
         },
         "Risensong":{
@@ -662,19 +669,19 @@
             ]
         },
         "Shallow Water":{
-            "description":"This egg appears to be covered in scales.[1]",
+            "description":"This egg appears to be covered in scales.",
             "biomes":[
                 "No Habitat"
             ]
         },
         "Shimmer-scale":{
-            "description":"This egg is very reflective, almost metallic looking.[9]",
+            "description":"This egg is very reflective, almost metallic looking.",
             "biomes":[
                 "No Habitat"
             ]
         },
         "Silver":{
-            "description":"This egg gives off a beautiful glow.[10]",
+            "description":"This egg gives off a beautiful glow.",
             "biomes":[
                 "All Habitats"
             ]
@@ -701,13 +708,13 @@
             ]
         },
         "Skywing":{
-            "description":"This egg has strange markings on it.[4]",
+            "description":"This egg has strange markings on it.",
             "biomes":[
                 "Coast"
             ]
         },
         "Soulpeace":{
-            "description":"This egg gives off a beautiful glow.[10]",
+            "description":"This egg gives off a beautiful glow.",
             "biomes":[
                 "No Habitat"
             ]
@@ -733,7 +740,7 @@
             ]
         },
         "Spitfire":{
-            "description":"This egg has brightly colored markings on it.[11]",
+            "description":"This egg has brightly colored markings on it.",
             "biomes":[
                 "Desert"
             ]
@@ -745,7 +752,7 @@
             ]
         },
         "Stone":{
-            "description":"This egg is heavy and rough, as if it were made out of rock.[5]",
+            "description":"This egg is heavy and rough, as if it were made out of rock.",
             "biomes":[
                 "Alpine",
                 "Desert",
@@ -777,7 +784,7 @@
             ]
         },
         "Sunstone":{
-            "description":"This egg resembles a glowing stone.[7]",
+            "description":"This egg resembles a glowing stone.",
             "biomes":[
                 "Desert"
             ]
@@ -814,7 +821,7 @@
             ]
         },
         "Tinsel":{
-            "description":"This egg is very reflective, almost metallic looking.[9]",
+            "description":"This egg is very reflective, almost metallic looking.",
             "biomes":[
                 "No Habitat"
             ]
@@ -859,8 +866,7 @@
         "Vampire":{
             "description":"This egg is stone cold and smells rotten.",
             "biomes":[
-                "No Habitat",
-                "[14]"
+                "No Habitat"
             ]
         },
         "Water":{

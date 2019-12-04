@@ -1,9 +1,9 @@
-import json 							# Egg Dictionary
-import random 							# More complex behavior
-import time								# Delay functions
-import requests							# Fetching
-from bs4 import BeautifulSoup			# Parsing
-from robobrowser import RoboBrowser 	# Authentication
+import json
+import random 
+import time
+import requests
+from bs4 import BeautifulSoup
+from robobrowser import RoboBrowser
 
 # ====================================== #
 # =========== LOGIN AND AUTH =========== #
@@ -11,10 +11,10 @@ from robobrowser import RoboBrowser 	# Authentication
 br = RoboBrowser()
 br.open('https://dragcave.net/')
 form = br.get_form()
-print('======================')
-form['username'] = input('Type In your Username: ')
-form['password'] = input('Type In your Password: ')
-print('======================')
+print('==================')
+form['username'] = input('Username: ')
+form['password'] = input('Password: ')
+print('==================')
 br.submit_form(form)
 
 # =====================================#
@@ -24,7 +24,7 @@ f = open('eggpedia.json', 'r')
 eggpedia = json.load(f)
 f.close()
 
-biomeCodes = {
+biome_codes = {
 'Coast':'1',
 'Desert':'2',
 'Forest':'3',
@@ -34,29 +34,42 @@ biomeCodes = {
 }
 biomes_choice = []
 
-print('\n**CHOOSE THE DRAGONS YOU WANT TO SEARCH FOR, SEPARATED BY SPACES**')
-choice = input("Here: ").split(' ')
+print('\n**Choose your dragons separated by comma (,)**')
+choice = input("Here: ").split(',')
 
 desired = {}
 for breed in choice:
 	desired[eggpedia['dragons'][breed]['description']] = breed
 	for biome in eggpedia['dragons'][breed]['biomes']:
-		if biomeCodes[biome] not in biomes_choice:
-			biomes_choice.append(biomeCodes[biome])
+		if biome == "All Habitats":
+			biomes_choice = [1,2,3,4,5,6]
+		elif biome == "No Habitat":
+			print("ERROR: {} is currently not found in any habitat.".format(breed))
+		elif biome_codes[biome] not in biomes_choice:
+			biomes_choice.append(biome_codes[biome])
 
-biomes_left = biomes_choice
+biomes_left = list(biomes_choice)
 
 # =========================================== #
 # =========== H U N T E R STARTUP =========== #
 # =========================================== #
 while 1:
 	if biomes_left == []:
-		biomes_left = biomes_choice
-	if len(biomes_left)-1 != 0:
-		biome = biomes_left.pop(random.randrange(0,len(biomes_left)-1))
-	else:
+		print("Biomes choice:", biomes_choice)
+		biomes_left = list(biomes_choice)
+		print("Reseting countdown!")
+	
+	if len(biomes_left) > 1:
+		biome = biomes_left.pop(random.randrange(len(biomes_left)))
+		print("Biomes choice:", biomes_choice)
+		print("Biome chosen was {}, and now the list is {}".format(biome, biomes_left))
+	
+	elif len(biomes_left) == 1:
 		biome = biomes_left.pop(0)
-	br.open('https://dragcave.net/locations/' + biome)
+		print("Biomes choice:", biomes_choice)
+		print("Biome chosen was {}, and now the list is {}".format(biome, biomes_left))
+	
+	br.open('https://dragcave.net/locations/' + str(biome))
 	soup = BeautifulSoup(str(br.parsed()), "lxml")
 	cave = (soup.find('div',class_='eggs')).findAll('div')
 
@@ -66,24 +79,15 @@ while 1:
 		eggDescription = egg.find("span").text
 		print(eggLink, eggDescription)
 
-		# Default case: Chosen dragons.
+		# Catch dragon if it corresponds to desireds.
 		if eggDescription in desired:
 			br.open(eggLink)
-			print("\n**{} FOUND**\nEnding program...".format(desired[eggDescription]))
-			exit()
+			print("\n**{} FOUND**\n".format(desired[eggDescription]))
+			desired.pop('key', None)
+			
+			# If dict empty, end the program.
+			if desired ==  False:
+				input("All desired dragons found, press enter to exit the program.")
+				exit()
 
-		# Special case 1: Leetle Tree
-		if eggDescription == "Oh my. There is a Leetle Tree among the eggs.":
-			br.open(eggLink)
-			print("\n**LEETLE TREE FOUND**\nEnding program...")
-			exit()
-		# Special case 2: Chicken Egg
-		if eggDescription == "This egg is much smaller than the others.":
-			br.open(eggLink)
-			print("\n**CHICKEN EGG FOUND**\nEnding program...")
-			exit()
-
-		# Default Case:
-
-	
-	time.sleep(random.randrange(2,6))
+	time.sleep(random.randrange(2,10))
