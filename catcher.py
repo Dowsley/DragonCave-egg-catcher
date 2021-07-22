@@ -3,6 +3,7 @@ from random import randrange
 from time import sleep
 from bs4 import BeautifulSoup
 from robobrowser import RoboBrowser
+import requests
 
 HABITAT = {
     'coast': 1,
@@ -82,7 +83,10 @@ except Exception as e:
 
 # --- Authentication --- #
 try:
-    browser = RoboBrowser()
+    s = requests.Session()
+    s.headers['User-Agent'] = 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+
+    browser = RoboBrowser(session=s)
     browser.open('https://dragcave.net/')
     form = browser.get_form()
     form['username'] = username
